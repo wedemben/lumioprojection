@@ -675,11 +675,11 @@ footer { background:var(--dark); padding:60px; border-top:1px solid rgba(212,168
       <h3>Votre demande</h3>
       <p>Réponse garantie sous 24h</p>
       <div class="frow">
-        <div class="fgroup"><label class="flabel">Prénom *</label><input type="text" class="finput" placeholder="Votre prénom"></div>
-        <div class="fgroup"><label class="flabel">Société</label><input type="text" class="finput" placeholder="Votre entreprise"></div>
+        <div class="fgroup"><label class="flabel">Prénom *</label><input type="text" name="prenom" class="finput" placeholder="Votre prénom"></div>
+        <div class="fgroup"><label class="flabel">Société</label><input type="text" name="societe" class="finput" placeholder="Votre entreprise"></div>
       </div>
-      <div class="fgroup"><label class="flabel">Email *</label><input type="email" class="finput" placeholder="votre@email.fr"></div>
-      <div class="fgroup"><label class="flabel">Téléphone</label><input type="tel" class="finput" placeholder="06 XX XX XX XX"></div>
+      <div class="fgroup"><label class="flabel">Email *</label><input type="email" name="email" class="finput" placeholder="votre@email.fr"></div>
+      <div class="fgroup"><label class="flabel">Téléphone</label><input type="tel" name="tel" class="finput" placeholder="06 XX XX XX XX"></div>
       <div class="fgroup">
         <label class="flabel">Type de demande *</label>
         <select class="fselect">
@@ -692,7 +692,7 @@ footer { background:var(--dark); padding:60px; border-top:1px solid rgba(212,168
           <option>Autre</option>
         </select>
       </div>
-      <div class="fgroup"><label class="flabel">Marque & modèle</label><input type="text" class="finput" placeholder="Ex: Epson EB-X41, BenQ W1700..."></div>
+      <div class="fgroup"><label class="flabel">Marque & modèle</label><input type="text" name="marque" class="finput" placeholder="Ex: Epson EB-X41, BenQ W1700..."></div>
       <div class="fgroup"><label class="flabel">Description du problème *</label><textarea class="ftextarea" placeholder="Décrivez votre problème ou besoin..."></textarea></div>
       <button class="fbtn" type="submit">Envoyer ma demande → Réponse sous 24h</button>
       <p class="form-guarantee">🔒 Vos données sont confidentielles · Devis 100% gratuit et sans engagement</p>
